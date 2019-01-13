@@ -1,0 +1,38 @@
+{
+  "0": {
+    "question_id": 0,
+    "tags": [
+      "android",
+      "android-layout",
+      "user-interface",
+      "dimension",
+      "units-of-measurement"
+    ],
+    "score": 5377,
+    "link": "https://stackoverflow.com/questions/2025282/what-is-the-difference-between-px-dip-dp-and-sp",
+    "title": "What is the difference between &quot;px&quot;, &quot;dip&quot;, &quot;dp&quot; and &quot;sp&quot;?",
+    "body": "<p>What is the difference between Android units of measure?</p>\n\n<ul>\n<li>px</li>\n<li>dip</li>\n<li>dp</li>\n<li>sp</li>\n</ul>\n"
+  },
+  "1": {
+    "question_id": 1,
+    "tags": [
+      "android",
+      "android-layout",
+      "android-softkeyboard",
+      "android-input-method",
+      "soft-keyboard"
+    ],
+    "score": 3310,
+    "link": "https://stackoverflow.com/questions/1109022/close-hide-the-android-soft-keyboard",
+    "title": "Close/hide the Android Soft Keyboard",
+    "body": "<p>I have an <code>EditText</code> and a <code>Button</code> in my layout.</p>\n\n<p>After writing in the edit field and clicking on the <code>Button</code>, I want to hide the virtual keyboard. I assume that this is a simple piece of code, but where can I find an example of it?</p>\n"
+  },
+  "2": {
+    "question_id": 2,
+    "tags": ["java", "android", "usermanager"],
+    "score": 3277,
+    "link": "https://stackoverflow.com/questions/13375357/proper-use-cases-for-android-usermanager-isuseragoat",
+    "title": "Proper use cases for Android UserManager.isUserAGoat()?",
+    "body": "<p>I was looking at the new APIs introduced in <a href=\"http://en.wikipedia.org/wiki/Android_version_history#Android_4.1.2F4.2_Jelly_Bean\" rel=\"noreferrer\">Android 4.2</a>.\nWhile looking at the <a href=\"http://developer.android.com/reference/android/os/UserManager.html\" rel=\"noreferrer\"><code>UserManager</code></a> class I came across the following method:</p>\n\n<blockquote>\n<pre><code>public boolean isUserAGoat()\n</code></pre>\n  \n  <p>Used to determine whether the user making this call is subject to teleportations.</p>\n  \n  <p>Returns whether the user making this call is a goat.</p>\n</blockquote>\n\n<p>How and when should this be used?</p>\n"
+  }
+}
