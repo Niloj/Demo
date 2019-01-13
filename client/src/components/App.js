@@ -26,7 +26,7 @@ class App extends React.Component {
           className={`ui ${this.state.dim ? 'active' : 'disabled'} page dimmer`}
         >
           <div className="content">
-            <h1 style={{ fontSize: '5em' }}>Search for an issue...</h1>
+            <h1 style={{ fontSize: '5em' }}>Search Twitter...</h1>
             <SearchBar Submit={this.onSearchSubmit} />
           </div>
         </div>

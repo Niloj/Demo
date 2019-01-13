@@ -4,10 +4,16 @@ const Twitter = require('twitter');
 const _ = require('underscore');
 
 var twitterClient = new Twitter({
-  consumer_key: process.env.TWITTER_CONSUMER_KEY,
-  consumer_secret: process.env.TWITTER_CONSUMER_SECRET,
-  access_token_key: process.env.TWITTER_ACCESS_TOKEN_KEY,
-  access_token_secret: process.env.TWITTER_ACCESS_TOKEN_SECRET
+  consumer_key: process.env.TWITTER_CONSUMER_KEY || 'jte8TWedv8MerfciqVTfbIkie',
+  consumer_secret:
+    process.env.TWITTER_CONSUMER_SECRET ||
+    'j2r8zUs5O8jp5ANesTAORZTOFOKCZuAIij659U0zj5BLTvGyql',
+  access_token_key:
+    process.env.TWITTER_ACCESS_TOKEN_KEY ||
+    '1534028156-WzOpbpd2BXZeJ2DTVmKkWGbM4Ew01uHclMdWVWE',
+  access_token_secret:
+    process.env.TWITTER_ACCESS_TOKEN_SECRET ||
+    '8HQdd4rEIdZy4MadiFwLfjqYOsUONhkJR2kHP7Vkh3Lpg'
 });
 
 router.get('/tweets', (req, res, next) => {
